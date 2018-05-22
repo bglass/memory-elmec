@@ -2,6 +2,8 @@ from
   https://github.com/johnomarkid/elm-electron-webpack
 
 
+# elmec1:
+
     module: {
         rules: [
 
@@ -12,3 +14,8 @@ from
 
     npm install -g webpack|webpack-cli|webpack-dev-server
     npm install --save elm-webpack-loader
+
+
+# elmec2:
+
+    elm-package install elm-lang/html
