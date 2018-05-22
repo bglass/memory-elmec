@@ -5,6 +5,11 @@
   </head>
 
   <body>
-    <h2>Hello Electron</h2>
-  </body>
-</html>
+    <div id='container'></div>
+    <script src="bundle.js"></script>
+    <script>
+        var Elm = require('./bundle.js');
+        var container = document.getElementById('container');
+        var app = Elm.Main.embed(container);
+    </script>
+</h
